@@ -7,8 +7,14 @@ export default function App() {
   return (
     <div className="App">
       <h2>Start playing around to see some magic happen!</h2>
+
+      {/* 1s Timer */}
       <Timer label="1s Timer" />
+
+      {/* 2s Timer */}
       <Timer initialValue={0} step={2000} label="2s Timer" />
+
+      {/* Ns Timer */}
       <label>n: </label>
       <input
         type="number"
